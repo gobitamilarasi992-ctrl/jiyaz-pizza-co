@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JIYAZ PIZZA CO | Namakkal</title>
+<style>
+:root{--pink:#ff4f9a;--deep:#e92f7c;--ink:#29212a;--muted:#706570;--cream:#fff8fb;--line:#f3dce7}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--cream);color:var(--ink)}
+header{background:#fff;position:sticky;top:0;z-index:5;border-bottom:1px solid var(--line);padding:14px 5%;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.brand{font-weight:900;letter-spacing:1.5px;color:var(--deep);font-size:20px}.brand span{display:block;font-size:10px;color:var(--muted);letter-spacing:3px;margin-top:3px}
+header a{color:var(--ink);text-decoration:none;font-weight:700;font-size:14px}
+.hero{padding:54px 6% 48px;background:linear-gradient(135deg,#ffe0ee,#fff 62%,#ffd1e5);display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:24px}
+.kicker{color:var(--deep);font-weight:800;letter-spacing:2px;font-size:12px}.hero h1{font-size:clamp(38px,6vw,66px);line-height:.98;margin:12px 0}.hero h1 em{font-style:normal;color:var(--deep)}.hero p{color:var(--muted);font-size:17px;line-height:1.6;max-width:520px}
+.cta{display:inline-block;background:var(--deep);color:white;text-decoration:none;padding:13px 20px;border-radius:999px;font-weight:800;margin-top:10px}
+.pizza-art{font-size:clamp(120px,20vw,220px);text-align:center;filter:drop-shadow(0 14px 12px #d96a9c44)}
+section{padding:36px 6%}.section-head{display:flex;justify-content:space-between;align-items:end;gap:12px;margin-bottom:20px}.section-head h2{margin:0;font-size:28px}.section-head p{margin:5px 0 0;color:var(--muted)}
+.menu{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.item{background:white;border:1px solid var(--line);border-radius:18px;padding:16px;box-shadow:0 6px 18px #9c49650b}.food{font-size:42px;background:#fff0f6;border-radius:13px;text-align:center;padding:16px 4px;margin-bottom:12px}.item h3{font-size:16px;margin:5px 0}.item p{font-size:12px;color:var(--muted);min-height:30px}.price{font-weight:900;color:var(--deep);font-size:18px}.tag{font-size:10px;background:#ffe0ee;color:#a91e5a;border-radius:99px;padding:5px 8px;display:inline-block;margin-bottom:7px}
+.notice{margin-top:18px;color:#776b74;font-size:12px;line-height:1.5}
+.about{background:#fff0f6;border-block:1px solid var(--line);display:grid;grid-template-columns:1fr 1fr;gap:24px}.about h2{margin-top:0}.about p{color:var(--muted);line-height:1.65}
+footer{background:#2b2029;color:white;padding:28px 6%;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}footer small{color:#e5cbd7}
+@media(max-width:760px){.hero{grid-template-columns:1fr;text-align:center;padding-top:40px}.hero p{margin-inline:auto}.pizza-art{font-size:130px}.menu{grid-template-columns:repeat(2,minmax(0,1fr))}.about{grid-template-columns:1fr}.section-head{align-items:start;flex-direction:column}}
+@media(max-width:390px){.menu{grid-template-columns:1fr}header a{font-size:12px}}
+</style>
+</head>
+<body>
+<header><div class="brand">JIYAZ PIZZA CO<span>FRESH • HOT • DELICIOUS</span></div><a href="#menu">Explore Menu ↓</a></header>
+<main>
+<section class="hero">
+<div><div class="kicker">NAMAKKAL • SALEM ROAD</div><h1>Good food.<br><em>Great mood.</em></h1><p>Pizza cravings, juicy burgers, crispy bites and delicious rolls — all in one place.</p><a class="cta" href="#menu">Explore our menu</a></div>
+<div class="pizza-art" aria-label="Pizza illustration">🍕</div>
+</section>
+<section id="menu">
+<div class="section-head"><div><h2>Our favourites</h2><p>A little something for every craving.</p></div></div>
+<div class="menu">
+<article class="item"><div class="food">🍕</div><span class="tag">PIZZA</span><h3>Classic Margherita</h3><p>Cheesy, classic and comforting.</p><div class="price">₹149*</div></article>
+<article class="item"><div class="food">🍕</div><span class="tag">PIZZA</span><h3>Farm Fresh Pizza</h3><p>A colourful veggie favourite.</p><div class="price">₹199*</div></article>
+<article class="item"><div class="food">🍔</div><span class="tag">BURGER</span><h3>Crispy Chicken Burger</h3><p>Crunchy bite, big flavour.</p><div class="price">₹129*</div></article>
+<article class="item"><div class="food">🍔</div><span class="tag">BURGER</span><h3>Classic Veg Burger</h3><p>A tasty veggie stack.</p><div class="price">₹99*</div></article>
+<article class="item"><div class="food">🍗</div><span class="tag">CRISPY BITES</span><h3>Fried Chicken</h3><p>Golden, crunchy and satisfying.</p><div class="price">₹159*</div></article>
+<article class="item"><div class="food">🌯</div><span class="tag">ROLLS</span><h3>Chicken Roll</h3><p>Full flavour wrapped up.</p><div class="price">₹119*</div></article>
+<article class="item"><div class="food">🌯</div><span class="tag">ROLLS</span><h3>Paneer Roll</h3><p>Spiced paneer in a soft wrap.</p><div class="price">₹99*</div></article>
+<article class="item"><div class="food">🥤</div><span class="tag">DRINKS</span><h3>Chilled Cola</h3><p>A cool sip with your meal.</p><div class="price">₹49*</div></article>
+</div>
+<p class="notice">*Demo prices for preview only. Please update prices, menu, phone number and business details before publishing. This sample site displays a menu only; it does not accept or send orders.</p>
+</section>
+<section class="about">
+<div><h2>Made for your cravings.</h2><p>Welcome to JIYAZ PIZZA CO — your spot for pizza, burgers, fried chicken, rolls and refreshing drinks.</p></div>
+<div><h2>Find us</h2><p><strong>Salem Road, near Trends</strong><br>Namakkal, Tamil Nadu</p><p>Visit us for your favourite bites. Add your business phone number and opening hours here before launch.</p></div>
+</section>
+</main>
+<footer><div><strong>JIYAZ PIZZA CO</strong><br><small>Fresh • Hot • Delicious</small></div><small>Namakkal, Tamil Nadu · Menu preview</small></footer>
+</body></html>
